@@ -1,5 +1,5 @@
-# Resumen del Caso: Ataque a Capcom (2020)
+# Resumen del Caso: Ransomware a Capcom (Noviembre 2020)
 
-En el año 2020 la empresa Capcom fue atacada por unos hackers. Le metieron un virus a sus servidores y robaron como 1 tera de información. 
+En noviembre de 2020, la desarrolladora de videojuegos Capcom fue víctima de un ataque de ransomware perpetrado por el grupo cibercriminal Ragnar Locker. Los atacantes lograron vulnerar las defensas de la red corporativa, comprometiendo gravemente la seguridad de la información de la compañía.
 
-Sacaron datos de juegos y también información personal de la gente que trabaja ahí y de los jugadores. Los hackers pidieron mucha plata para no publicar las cosas en internet. Fue un problema gigante porque botaron sus sistemas y filtraron casi todo.
+Durante la brecha, se exfiltró aproximadamente 1 TB de datos confidenciales. Esto incluyó información corporativa, financiera y, críticamente, datos personales de más de 390.000 personas, afectando tanto a empleados como a clientes. Los atacantes exigieron un rescate millonario en criptomonedas a cambio de no divulgar la información y entregar la herramienta de descifrado, generando una severa crisis que vulneró directamente la confidencialidad y disponibilidad de los sistemas de la empresa.
