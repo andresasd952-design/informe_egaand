@@ -22,3 +22,8 @@ A continuación, se detalla cómo el actuar de los cibercriminales vulneró la l
 ## 4. Receptación de Datos Informáticos (Artículo 6) y Extorsión
 * **El Incidente Técnico:** Previo a cifrar los equipos, Ragnar Locker exfiltró (robó) 1 TB de datos, incluyendo información financiera corporativa y datos personales de más de 390.000 personas. Posteriormente, amenazaron con publicar esta información en la *Dark Web* si no se pagaba un rescate millonario en criptomonedas.
 * **Tipificación Legal:** Aunque el chantaje o extorsión se persigue bajo el Código Penal tradicional, el Artículo 6 de la Ley 21.459 refuerza la persecución al castigar a quienes comercialicen, transfieran o adquieran datos informáticos obtenidos de manera ilícita (los datos exfiltrados).
+
+## Nota Técnica: La Estrategia de "Doble Extorsión"
+Es importante destacar en este análisis que el grupo Ragnar Locker utilizó una técnica moderna conocida como **Doble Extorsión**. No solo secuestraron la disponibilidad de los sistemas mediante el cifrado (Ransomware tradicional), sino que también amenazaron con la pérdida de confidencialidad al amenazar con publicar los datos exfiltrados. 
+
+Esta táctica busca ejercer la máxima presión posible: incluso si Capcom lograba restaurar sus sistemas usando sus respaldos (Backups), el riesgo de la filtración masiva seguía latente, lo que desencadenaría de todas formas una crisis de responsabilidad frente a la normativa de protección de datos personales (equivalente a nuestra Ley 19.628).
