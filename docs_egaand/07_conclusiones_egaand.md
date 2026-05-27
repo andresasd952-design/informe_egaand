@@ -1,17 +1,9 @@
-# Conclusiones del Proyecto
+# 7. Conclusiones y Lecciones Aprendidas
 
-Tras analizar el incidente de seguridad de Capcom desde la óptica legal chilena y los estándares internacionales, se concluye que el caso no es un hecho aislado, sino un ejemplo paradigmático de la vulnerabilidad de las grandes organizaciones ante ciberataques transnacionales.
+Al analizar el caso de Capcom, queda claro que el mayor riesgo en ciberseguridad no siempre viene de ataques ultra sofisticados o tecnologías del futuro. A veces, el peligro real está en descuidar lo básico: una VPN antigua olvidada en una sucursal, credenciales comprometidas y una red sin segmentar fueron suficientes para paralizar a un gigante de la industria.
 
-## 1. La insuficiencia de la seguridad técnica
-La brecha demuestra que la tecnología defensiva (firewalls, antivirus) es insuficiente si no se gestiona bajo un marco de gobernanza estricto. La falta de segmentación de red y la ausencia de controles de acceso robustos permitieron que un incidente de "acceso" se transformara en una crisis de "integridad" y "disponibilidad" de nivel corporativo.
+Desde la perspectiva de la ingeniería y el cumplimiento normativo, este incidente nos deja aprendizajes súper valiosos. En Chile, normativas como la Ley de Delitos Informáticos (Ley N° 21.459) y la de Protección de la Vida Privada (Ley N° 19.628) no están ahí solo para castigar a los delincuentes después del desastre, sino que nos marcan un estándar claro sobre el "deber de custodia". Las empresas no solo gestionan sistemas; son guardianes de la información de miles de personas, y fallar en proteger esos datos es una negligencia grave.
 
-## 2. La convergencia entre ciberseguridad y derecho
-El incidente confirma que, en Chile, los delitos informáticos ya no son solo un problema técnico del departamento de TI; son una responsabilidad legal directa. La Ley N° 21.459 provee las herramientas para perseguir a los atacantes, pero la Ley N° 19.628 impone sobre la empresa una carga ineludible: proteger los datos de las personas. La empresa que no invierte en seguridad, hoy está invirtiendo en futuras multas y demandas.
+Por otro lado, el rescate millonario exigido por el grupo Ragnar Locker nos demuestra por qué ceder a la extorsión nunca es una solución real. No solo es cuestionable y fomenta la industria del cibercrimen, sino que, a nivel técnico, pagar no garantiza recuperar absolutamente nada. 
 
-## 3. Lecciones para la ingeniería de datos
-La gestión de datos masivos exige una cultura de "Seguridad desde el Diseño" (*Security by Design*). Las organizaciones deben priorizar:
-* **Estrategias de recuperación:** Tener respaldos inmutables que permitan restaurar el servicio sin ceder al chantaje.
-* **Monitoreo Proactivo:** Implementar sistemas que detecten anomalías en tiempo real, antes de que ocurra la exfiltración masiva.
-* **Cumplimiento Normativo:** Ver la normativa no como una traba burocrática, sino como una guía técnica para implementar controles que protejan la continuidad operacional y la reputación de la firma.
-
-El caso Capcom deja claro que la resiliencia no es opcional; es el pilar sobre el cual debe construirse cualquier arquitectura digital moderna.
+En definitiva, la verdadera respuesta está en la prevención proactiva. Para evitar ser el próximo titular en las noticias, las organizaciones deben adoptar modelos como Zero Trust (asumir que la red ya está comprometida y no confiar a ciegas), implementar respaldos inmutables bajo la regla 3-2-1 y, sobre todo, entender que la seguridad de la información es un proceso continuo que debe actualizarse todos los días.
