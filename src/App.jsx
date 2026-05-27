@@ -121,24 +121,24 @@ function App() {
 
         </main>
 
-        {/* Pie de Página Minimalista */}
-        <footer className="bg-white border-t border-slate-200 py-8 mt-12">
-          <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm font-medium">
-            <p>&copy; 2026 - Proyecto de Ingeniería y Análisis Normativo</p>
-            <div className="flex items-center gap-2">
-              <p>Hecho por <span className="font-bold text-slate-800">Andrés</span></p>
-              <span>•</span>
-              <a
-                href="https://github.com" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-indigo-600 hover:text-indigo-800 hover:underline transition-colors flex items-center gap-1"
-              >
-                Ver Repositorio
-              </a>
-            </div>
+        <footer className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border-t-[6px] border-indigo-500 py-8 mt-12 relative overflow-hidden text-indigo-100">
+        <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-medium relative z-10">
+          <p className="text-indigo-200">&copy; 2026 - Proyecto de Ingeniería y Análisis Normativo</p>
+          <div className="flex items-center gap-2 text-indigo-200">
+            <p>Hecho por <span className="font-bold text-white">Andrés</span></p>
+            <span>•</span>
+            <a
+              href="https://github.com/andresasd952-design" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-400 hover:text-white hover:underline transition-colors flex items-center gap-1"
+            >
+              Ver Perfil
+            </a>
           </div>
-        </footer>
+        </div>
+      </footer>
       </div>
     </Router>
   );
